@@ -41,7 +41,9 @@ body {
 }
 
 /* banner area end */
-/* blog post are */
+
+
+/* blog post area */
 .blog-container {
     display: flex;
     margin: 100px 120px;
@@ -50,7 +52,7 @@ body {
 
 /*menu fixed */
 .menu-fixed {
-    width: 250px;
+    width: 400px;
     height: 250px;
     border-radius: 10px;
     background-color: #161616;
@@ -75,4 +77,46 @@ body {
 #menu-blog {
     background-color: red;
     color: white;
+}
+
+.blog-post {
+    margin-left: 10px;
+}
+
+.post {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.post-text {
+    margin: 20px;
+}
+
+.post img {
+    width: 100%;
+}
+
+.blog-post {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 12px;
+}
+
+.post-button {
+    width: 100px;
+    height: 32px;
+    font-family: 'Poppins';
+    background-color: white;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.post h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+
 }
