@@ -26,14 +26,11 @@ body {
     border: none;
 }
 
-.banner-img {
-    margin-left: 20px;
-}
-
-
 .banner-text p {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 25px;
+    font-family: 'Poppins';
+
 }
 
 .banner-text h1 {
@@ -44,3 +41,38 @@ body {
 }
 
 /* banner area end */
+/* blog post are */
+.blog-container {
+    display: flex;
+    margin: 100px 120px;
+}
+
+
+/*menu fixed */
+.menu-fixed {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.menu-fixed a {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#menu-blog {
+    background-color: red;
+    color: white;
+}
