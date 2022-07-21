@@ -81,6 +81,7 @@ body {
 
 .blog-post {
     margin-left: 10px;
+
 }
 
 .post {
@@ -101,6 +102,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 12px;
 }
+
 
 .post-button {
     width: 100px;
@@ -159,4 +161,21 @@ body {
     font-weight: 400;
 
 
+}
+
+.match {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.match-flag {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vs {
+    font-size: 25px;
 }
