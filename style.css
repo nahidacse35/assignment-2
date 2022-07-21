@@ -120,3 +120,43 @@ body {
     font-size: 16px;
 
 }
+
+
+/* footer*/
+.footer {
+    color: white;
+    /* height: 200px; */
+    background-color: #161616;
+    text-align: center;
+    padding: 5% 10% 5px 10%;
+}
+
+.footer h1 {
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-weight: 500;
+
+}
+
+.footer-item a {
+    color: #FFFFFF;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    text-decoration: none;
+    padding: 0 15px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 12px;
+}
+
+/* footer social */
+.social-icon a {
+    font-size: 20px;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+
+
+}
