@@ -40,6 +40,10 @@ body {
 
 }
 
+.half-width {
+    width: 50%;
+}
+
 /* banner area end */
 
 
@@ -74,10 +78,7 @@ body {
     text-align: center;
 }
 
-#menu-blog {
-    background-color: red;
-    color: white;
-}
+
 
 .blog-post {
     margin-left: 10px;
@@ -123,6 +124,9 @@ body {
 
 }
 
+#view-all-btn {
+    display: none;
+}
 
 /* footer*/
 .footer {
@@ -163,6 +167,7 @@ body {
 
 }
 
+/*upcoming*/
 .match {
     border: 1px solid #E8E8E8;
     border-radius: 10px;
@@ -178,4 +183,229 @@ body {
 
 .vs {
     font-size: 25px;
+}
+
+#upcoming-menu {
+    background-color: red;
+    color: white;
+}
+
+/* tablet view responsive start */
+@media screen and (min-width: 577px) and (max-width:920px) {
+    .banner-container {
+        height: 70vh;
+        margin: 20px;
+        padding: 40px;
+        padding-bottom: 0;
+        border-radius: 15px;
+    }
+
+    .blog-container {
+        margin: 20px;
+        flex-direction: column;
+    }
+
+    .blog-post {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 12px;
+    }
+
+
+    #last-post {
+        display: none;
+    }
+
+    /* button only for tab view */
+    .view-all {
+        display: flex;
+        justify-content: center;
+    }
+
+    .view-all-btn {
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        border: none;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        background-color: #DD0000;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    .menu-fixed {
+        flex-direction: row;
+        width: auto;
+        height: 70px;
+        background-color: white;
+    }
+
+    .menu-fixed a {
+        background-color: #E8E8E8;
+    }
+
+    .fixed {
+        width: 25%;
+    }
+
+}
+
+
+/* mobile view responsive start */
+@media screen and (max-width: 576px) {
+    .banner-container {
+        flex-direction: column;
+        margin: 20px;
+        border-radius: 15px;
+        background-color: #161616;
+        justify-content: space-between;
+        padding: 25px 15px 0 15px;
+        text-align: center;
+    }
+
+    .banner-text h1 {
+        font-size: 25px;
+        font-family: 'Poppins';
+        line-height: 20px;
+
+    }
+
+    .half-width {
+        height: 50%;
+        width: 90%;
+    }
+
+    .blog-container {
+        margin: 20px;
+        flex-direction: column;
+    }
+
+    .blog-post {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 12px;
+    }
+
+
+
+    .menu-fixed {
+        background-color: white;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .menu-fixed a {
+        background-color: #E8E8E8;
+    }
+}
+
+
+/* upcoming mobile view responsive start */
+@media screen and (max-width: 576px) {
+    .banner-container {
+        flex-direction: column;
+        margin: 20px;
+        border-radius: 15px;
+        background-color: #161616;
+        justify-content: space-between;
+        padding: 25px 15px 0 15px;
+        text-align: center;
+    }
+
+    .banner-text h1 {
+        font-size: 25px;
+        font-family: 'Poppins';
+        line-height: 20px;
+
+    }
+
+    .half-width {
+        height: 50%;
+        width: 90%;
+    }
+
+    .blog-container {
+        margin: 20px;
+        flex-direction: column;
+    }
+
+    .blog-post {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 12px;
+    }
+
+
+
+    .menu-fixed {
+        background-color: white;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .menu-fixed a {
+        background-color: #E8E8E8;
+    }
+}
+
+/*upcoming tablet view responsive start */
+@media screen and (min-width: 577px) and (max-width:920px) {
+    .banner-container {
+        height: 70vh;
+        margin: 20px;
+        padding: 40px;
+        padding-bottom: 0;
+        border-radius: 15px;
+    }
+
+    .blog-container {
+        margin: 20px;
+        flex-direction: column;
+    }
+
+    .blog-post {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 12px;
+    }
+
+
+    #last-post {
+        display: none;
+    }
+
+    /* button only for tab view */
+    .view-all {
+        display: flex;
+        justify-content: center;
+    }
+
+    .view-all-btn {
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        border: none;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        background-color: #DD0000;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    .menu-fixed {
+        flex-direction: row;
+        width: auto;
+        height: 70px;
+        background-color: white;
+    }
+
+    .menu-fixed a {
+        background-color: #E8E8E8;
+    }
+
+    .fixed {
+        width: 25%;
+    }
+
 }
