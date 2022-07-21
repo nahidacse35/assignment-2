@@ -78,7 +78,10 @@ body {
     text-align: center;
 }
 
-
+#menu-blog {
+    background-color: red;
+    color: white;
+}
 
 .blog-post {
     margin-left: 10px;
@@ -215,7 +218,7 @@ body {
         display: none;
     }
 
-    /* button only for tab view */
+    /* button tab view */
     .view-all {
         display: flex;
         justify-content: center;
@@ -373,7 +376,7 @@ body {
         display: none;
     }
 
-    /* button only for tab view */
+    /* button tab view */
     .view-all {
         display: flex;
         justify-content: center;
